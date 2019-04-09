@@ -15,9 +15,9 @@
 </head>
 
 <body>
-    <div class="jumbotron jumbotron-fluid my-0 py-0">
+    <div class="jumbotron jumbotron-fluid mb-0">
         <h1 class="display-1">Muhammad Tayyab Sheikh</h1>
-        <p class="lead mx-1 my-0">commonly known as <strong>CS Tayyab</strong></p>
+        <p class="lead">commonly known as <strong>CS Tayyab</strong></p>
     </div>
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
         <a class="navbar-brand ">CSTAYYAB</a>
@@ -37,14 +37,12 @@
         </div>
     </nav>
     <div class="container-fluid">
-        <div class="row">
-            <h1 class="col-12">Highlights</h1>
-            <div class="col-12">Checkout the hightlights by me on different social and blogging websites....</div>
-        </div>
+        <h1 class="">Highlights</h1>
+        <div class="">Checkout the hightlights by me on different social and blogging websites....</div>
         <section>
             <h2>Read the articles</h2>
-            <div class="row">
-                <div class="card m-1 border border-dark col-md-3 col-sm-11">
+            <div class="card-group">
+                <div class="card border border-dark col-md-3 col-sm-11">
                     <img class="card-img-top" src="https://miro.medium.com/fit/c/1348/404/0*2vJ7T-c778t1ENvi.png"
                         alt="Glutton - Article Thumbnail">
                     <div class="card-body">
@@ -60,8 +58,8 @@
         </section>
         <section>
             <h2>Read Highlighted Tweets</h2>
-            <div class="row">
-                <div class="card m-1 border border-dark col-md-3 col-sm-11">
+            <div class="card-group">
+                <div class="card border border-dark col-md-3 col-sm-11">
                     <div class="card-body">
                         <p>
                             Predict relationships (friends, family, etc) between users and their followers using
@@ -82,7 +80,7 @@
                             target="_blank" class="btn btn-dark">View Tweet</a>
                     </div>
                 </div>
-                <div class="card m-1 border border-dark col-md-3 col-sm-11">
+                <div class="card border border-dark col-md-3 col-sm-11">
                     <div class="card-body">
                         <p>Enjoy some ancient experience of <a
                                 href="https://twitter.com/Windows?ref_src=twsrc%5Etfw">@Windows</a>
@@ -137,9 +135,8 @@
                     });
                 }
             });
+            $(".card-group .card").addClass('ml-1');
         });
-        $('section h2').addClass("pl-2");
-        $('section .row').addClass("pl-3");
     </script>
 </body>
 
