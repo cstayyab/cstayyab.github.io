@@ -1,0 +1,4 @@
+.fa-twitter:hover, h2:hover > i.fa-twitter {
+    color: #38A1F3;
+    cursor: pointer;
+}
