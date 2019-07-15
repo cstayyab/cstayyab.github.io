@@ -1,0 +1,36 @@
+---
+layout: default
+---
+
+<div class="page-title container">
+  <h1>{{ page.title }}</h1>
+  <p>{{ page.brief }}</p>
+</div>
+{% if page.feature-image %}
+<img class="feature-image" src="{{ page.feature-image }}" alt="{{ page.title }}"/>
+{% endif %}
+<div class="container">{{ content }}</div>
+
+<div class="lightbox">
+  <p style="text-align: center">
+    <strong>Technologies:</strong> {{ page.tech }}
+  </p>
+  <p style="text-align: center">
+    {% if page.contributors %}
+        {% assign contributors = page.contributors %}
+        <strong>Contributors:</strong> 
+        {% for author in contributors %}
+            <a href="https://github.com/{{ author }}" target="_blank">@{{ author }}</a>
+        {% endfor %}        
+    {% endif %}
+  </p>
+  {% if page.skills %}
+  <p style="text-align: center">
+    <strong>Skills:</strong> {{ page.skills }}
+  </p>
+  {% endif %}
+  {% if page.feature-link %}
+  <p style="text-align: center"><a class="btn" href="{{ page.feature-link }}" target="_blank">More</a></p>
+  {% endif %}
+
+</div>

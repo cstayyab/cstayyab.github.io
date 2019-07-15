@@ -1,0 +1,29 @@
+---
+layout: page
+---
+
+<div class="portfolio container">
+
+  {{ content }}
+
+  {% for project in site.projects %}
+  <div class="project-summary row stackable expanded">
+    <div class="project-title col">
+      <h4><a href="{{ project.url | relative_url }}" style="color: black;">{{ project.title | escape }}</a></h4>
+      <p>{{ project.brief | escape }}</p>
+      <p><a class="btn" href="{{ project.url | relative_url }}">View More</a></p>
+    </div>
+    <a
+      class="project-feature-image col"
+      href="{{ project.url | relative_url }}"
+      title="{{ project.brief | escape }}"
+    >
+      <img
+        src="{{ project.feature-image | escape }}"
+        alt="{{ project.title | escape }}"
+      />
+    </a>
+  </div>
+  {% endfor %}
+
+</div>
