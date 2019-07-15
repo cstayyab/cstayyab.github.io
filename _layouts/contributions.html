@@ -1,0 +1,30 @@
+---
+layout: page
+---
+
+<div class="portfolio container">
+
+  {{ content }}
+
+  {% for contribution in site.contributions %}
+  <div class="project-summary row stackable expanded">
+    <div class="project-title col">
+      <h4><a href="{{ contribution.repo-link | relative_url }}" target="_blank" style="color: black;">{{ contribution.title | escape }}</a></h4>
+      <p>{{ contribution.brief | escape }}</p>
+      <p><strong>Contributions:</strong> {{ contribution.total_pulls }} (
+        {% if contribution.pulls %}
+        {% assign pulls = contribution.pulls %} 
+        {% for pull in pulls %}
+            <a href="{{ contribution.repo-link }}/pull/{{ pull }}" target="_blank">#{{ pull }}</a>&nbsp;
+        {% endfor %}        
+    {% endif %}
+      )
+      </p>
+      <p>
+        <a class="btn" href="{{ contribution.repo-link }}" target="_blank">Visit Project</a>
+      </p>
+    </div>
+  </div>
+  {% endfor %}
+
+</div>
