@@ -11,7 +11,7 @@ I love **to code**, specially for **Opensource Projects**.
 
 I believe that I am a <a href="https://twitter.com/hashtag/10xengineer" target="_blank">#10xEngineer</a>.
 
-I am a Final Year **Student** of **Computer Scinces** with Majors in **Information Security** and **Artificial Intelligence**.
+I am a Final Year **Student** of **Computer Sciences** with Majors in **Information Security** and **Artificial Intelligence**.
 
 I started coding at **age of 13 years** with **Visual Basic**.
 
