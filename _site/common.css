@@ -1,0 +1,10 @@
+.navbar-brand {
+    position: relative;
+    left: -100em;
+    transition: all 500ms ease 150ms;
+    color: white !important; 
+}
+
+.scrolled .navbar-brand {
+    left: 0;
+}
