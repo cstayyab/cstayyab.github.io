@@ -25,8 +25,9 @@ social:
     - https://www.facebook.com/CSTayyab
     - https://www.linkedin.com/in/cstayyab
     - https://github.com/cstayyab
-webmaster-verifications:
-  google: y47TNypwQInXzb2zPvcgjMiGhIMpQnekNOXdGkM-6bE
+
+webmaster_verifications:
+  google: TqGymtPmzd7kEfekzkEqaKTQHtuwyOBUyS6i5CjbTzU
 
 markdown: kramdown
 plugins:
