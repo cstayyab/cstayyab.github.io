@@ -4,10 +4,10 @@ layout: default
 
 <div class="page-title container">
   <h1>{{ page.title }}</h1>
-  <p>{{ page.brief }}</p>
+  <p>{{ page.description }}</p>
 </div>
-{% if page.feature-image %}
-<img class="feature-image" src="{{ page.feature-image }}" alt="{{ page.title }}"/>
+{% if page.image %}
+<img class="feature-image" style="width:80%; height: auto;" src="{{ page.image }}" alt="{{ page.title }}"/>
 {% endif %}
 <div class="container">{{ content }}</div>
 

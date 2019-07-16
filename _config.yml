@@ -1,19 +1,37 @@
-title: Muhammad Tayyab Sheikh
+title: Muhammad Tayyab Sheikh - CS Tayyab - cstayyab
 email: cstayyab@gmail.com
 profile-image: "/assets/images/me.jpg"
+logo: /assets/images/me.jpg
 description: >-
   linux advocate, opensource enthusiast, passionate computer programmer
 baseurl: ""
-url: ""
+url: "https://cstayyab.github.io"
 github_username: cstayyab
 linkedin_username: cstayyab
 twitter_username: CSTayyab
 facebook_username: CSTayyab
 instagram_username: cstayyab
 
+author:
+  twitter: cstayyab
+  picture: /assets/images/me.jpg
+twitter:
+  username: cstayyab
+  card: summary
+social:
+  name: Muhammad Tayyab Sheikh (CS Tayyab)
+  links:
+    - https://twitter.com/CSTayyab
+    - https://www.facebook.com/CSTayyab
+    - https://www.linkedin.com/in/cstayyab
+    - https://github.com/cstayyab
+
 markdown: kramdown
 plugins:
   - jekyll-feed
+  - jekyll-last-modified-at
+  - jekyll-sitemap
+  - jekyll-seo-tag
 
 header_pages:
   - index.md

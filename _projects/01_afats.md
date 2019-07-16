@@ -1,8 +1,12 @@
 ---
 layout: project
 title: AFATS
-brief: A cross-browser and cross-platform homepage and new tab document
-feature-image: "/assets/images/afats.png"
+description: A cross-browser and cross-platform homepage and new tab document
+canonical_url: 'https://cstayyab.github.io/AFATS'
+seo:
+    type: WebApplication
+icon: "/assets/images/afats.png"
+image: https://repository-images.githubusercontent.com/193139805/b20cf400-9526-11e9-8026-8d7f86d24bb5
 tech: CSS3, HTML5, JS, jQuery, Angular, Node.js, MongoDB
 skills: UI/UX Design, RESTful API Development
 feature-link: https://cstayyab.github.io/AFATS

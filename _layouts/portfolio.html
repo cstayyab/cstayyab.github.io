@@ -10,16 +10,16 @@ layout: page
   <div class="project-summary row stackable expanded">
     <div class="project-title col">
       <h4><a href="{{ project.url | relative_url }}" style="color: black;">{{ project.title | escape }}</a></h4>
-      <p>{{ project.brief | escape }}</p>
+      <p>{{ project.description | escape }}</p>
       <p><a class="btn" href="{{ project.url | relative_url }}">View More</a></p>
     </div>
     <a
       class="project-feature-image col"
       href="{{ project.url | relative_url }}"
-      title="{{ project.brief | escape }}"
+      title="{{ project.description | escape }}"
     >
       <img
-        src="{{ project.feature-image | escape }}"
+        src="{{ project.icon | escape }}"
         alt="{{ project.title | escape }}"
       />
     </a>
