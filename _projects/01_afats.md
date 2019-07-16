@@ -2,7 +2,6 @@
 layout: project
 title: AFATS
 description: A cross-browser and cross-platform homepage and new tab document
-canonical_url: 'https://cstayyab.github.io/AFATS'
 seo:
     type: WebApplication
 icon: "/assets/images/afats.png"
