@@ -54,3 +54,5 @@ exclude:
   - Gemfile.lock
   - .gitignore
   - LICENSE 
+include:
+  - _redirects
