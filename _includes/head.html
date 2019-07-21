@@ -6,16 +6,24 @@
 
     <!-- Icons -->
     <link href="/assets/icons/icon-32x32.png" rel="icon" type="image/png" sizes="32x32">
-
+    
+    <!-- Yandex Web Search -->
+    <meta name="yandex-verification" content="373b99c4bdede747" />
+    
     <!-- Eight.css -->
     <link href="https://cdn.jsdelivr.net/npm/eight.css/lib/eight.css" rel="stylesheet" type="text/css">
 
     <!-- Custom CSS -->
     <link rel="stylesheet" href="{{ "/assets/css/main.css" | relative_url }}">
-    {%- feed_meta -%}
-    {%- if jekyll.environment == 'production' and site.google_analytics -%}
-      {%- include google-analytics.html -%}
-    {%- endif -%}
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-144002431-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'UA-144002431-1');
+    </script>
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
