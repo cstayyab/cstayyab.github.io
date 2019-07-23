@@ -39,6 +39,7 @@ plugins:
 header_pages:
   - index.md
   - portfolio.md
+  - blog.md
   - contributions.md
   - contact.md
 
