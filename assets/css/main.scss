@@ -7,7 +7,7 @@ $breakpoint-md-min: 600px;
 $breakpoint-lg-min: 980px;
 $breakpoint-xl-min: 1200px;
 
-$primary-color: #6da7da;
+$primary-color: #851be7;
 $link-color: darken($primary-color, 30%);
 $link-color-inverted: #fafafa;
 $inverted-text-color: #f0f0f0;
@@ -63,7 +63,7 @@ a {
 .lightbox {
   padding: 3rem 1.5rem;
   margin: 2rem 0 0;
-  background: $primary-color url('../images/bg-header.jpg') no-repeat center center fixed;
+  background: $primary-color;
   color: $inverted-text-color;
   font-weight: 500;
 
@@ -89,10 +89,16 @@ a {
   .username {
     display: none;
   }
+  a {
+    text-decoration: none;
+    :hover {
+      text-decoration: none;
+    }
+  }
 }
 
 .site-header {
-  background: $primary-color url('../images/bg-header.jpg') no-repeat center center fixed;
+  background: $primary-color;
   background-size: cover;
   color: $inverted-text-color;
   padding: 3rem 0;
@@ -174,6 +180,11 @@ a {
 
     .page-link {
       background-color: transparent;
+      color: white;
+    }
+    .page-link:hover {
+      color: $primary-color;
+      background-color: white;
     }
   }
 }

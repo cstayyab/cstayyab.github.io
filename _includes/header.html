@@ -5,26 +5,24 @@
       {% assign default_paths = site.pages | map: "path" %}
       {% assign page_paths = site.header_pages | default: default_paths %}
       {% if site.profile-image and page.url == "/" %}
-      <figure class="site-profile-image">
-        <img src="{{ site.profile-image }}"/>
-      </figure>
+        <img src="{{ site.profile-image }}" class="rounded-circle img-thumbnail img-fluid" style="width:30%; margin: 0 auto; display:block; height: auto; max-width:256px;"/>
       {% endif %}
-      <a class="site-title" rel="author" href="{{ "/" | relative_url }}">{{ site.title | escape }}</a>
+      <a class="site-title text-decoration-none display-4" rel="author" href="{{ "/" | relative_url }}">{{ site.title | escape }}</a>
       {% if site.description %}
-      <div class="site-description">{{ site.description | escape }}</div>
+      <div class="site-description lead">{{ site.description | escape }}</div>
       {% endif %}
   
       {% include social.html %}
   
       {% if page_paths %}
-      <nav class="site-nav btn-group stackable">
+      <div class="site-nav btn-group">
       {% for path in page_paths %}
         {% assign my_page = site.pages | where: "path", path | first %}
         {% if my_page.title %}
         <a class="page-link btn" href="{{ my_page.url | relative_url }}">{{ my_page.title | escape }}</a>
         {% endif %}
       {% endfor %}
-      </nav>
+      </div>
       {% endif %}
   
     </div>
