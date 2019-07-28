@@ -1,21 +1,20 @@
 ---
-layout: default
+layout: page
 ---
 
-<div class="page-title container">
-  <h1>{{ page.title }}</h1>
-  <p>{{ page.description }}</p>
+<div class="">
+  {{ page.description }}
 </div>
 {% if page.image %}
-<img class="feature-image" style="width:80%; height: auto; margin:0 10%;" src="{{ page.image }}" alt="{{ page.title }}"/>
+<img class="img-fluid" style="width:80%; height: auto; margin:0 10%;" src="{{ page.image }}" alt="{{ page.title }}"/>
 {% endif %}
 <div class="container">{{ content }}</div>
 
-<div class="lightbox">
-  <p style="text-align: center">
+<div class="container p-0"">
+  <p class="text-center">
     <strong>Technologies:</strong> {{ page.tech }}
   </p>
-  <p style="text-align: center">
+  <p class="text-center">
     {% if page.contributors %}
         {% assign contributors = page.contributors %}
         <strong>Contributors:</strong> 
@@ -25,12 +24,12 @@ layout: default
     {% endif %}
   </p>
   {% if page.skills %}
-  <p style="text-align: center">
+  <p class="text-center">
     <strong>Skills:</strong> {{ page.skills }}
   </p>
   {% endif %}
   {% if page.feature-link %}
-  <p style="text-align: center"><a class="btn" href="{{ page.feature-link }}" target="_blank">More</a></p>
+  <p class="text-center"><a class="btn btn-primary" href="{{ page.feature-link }}" target="_blank">More</a></p>
   {% endif %}
 
 </div>

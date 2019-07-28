@@ -5,7 +5,7 @@ logo: /assets/images/me.jpg
 description: >-
   linux advocate, opensource enthusiast, passionate computer programmer
 baseurl: ""
-url: ""
+url: "https://localhost:4000"
 github_username: cstayyab
 linkedin_username: cstayyab
 twitter_username: CSTayyab
@@ -48,6 +48,8 @@ collections:
     output: true
   contributions:
     output: false
+  blogposts:
+    output: true
 
 exclude:
   - readme.md
@@ -57,3 +59,5 @@ exclude:
   - LICENSE 
 include:
   - _redirects
+sass:
+    sass_dir: _sass
