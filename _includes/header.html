@@ -5,7 +5,13 @@
   <img src="{{ site.profile-image }}" class="rounded-circle img-thumbnail img-fluid"
     style="width:50%; margin: 0 auto; display:block; height: auto; max-width:320px;" />
   {% endif %}
-  <div class="display-4">{{ site.title | escape }}</div>
+  <div class="display-4">
+    {% if site.short_title %}
+      {{ site. short_title | escape }}
+    {% else %}
+      {{ site.title | escape }}
+    {% endif %}
+  </div>
   <p class="lead">{{ site.description | escape | upcase }}</p>
   {% include social.html %}
   {% if page_paths %}
