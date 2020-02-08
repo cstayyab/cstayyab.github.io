@@ -3,7 +3,7 @@
 # Edit theme's home layout instead if you wanna make some changes
 # See: https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 layout: page
-title: About me
+title: About Muhammad Tayyab Sheikh | CS Tayyab | cstayyab
 ---
 My name is **Muhammad Tayyab Sheikh** commonly known as **CS Tayyab** on the internet.
 
