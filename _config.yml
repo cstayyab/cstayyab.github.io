@@ -55,7 +55,8 @@ exclude:
   - Gemfile
   - Gemfile.lock
   - .gitignore
-  - LICENSE 
+  - LICENSE
+  - blog.md
 include:
   - _redirects
 sass:
