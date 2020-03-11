@@ -39,6 +39,7 @@ plugins:
 header_pages:
   - index.md
   - portfolio.md
+  - blog.md
   - contributions.md
   - contact.md
 
@@ -56,7 +57,7 @@ exclude:
   - Gemfile.lock
   - .gitignore
   - LICENSE
-  - blog.md
+#  - blog.md
 include:
   - _redirects
 sass:
