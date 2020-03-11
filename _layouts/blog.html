@@ -8,7 +8,7 @@ layout: page
         <img class="card-img-top" src="{{ blogpost.image | relative_url }}" alt="{{ blogpost.title }}">
         <div class="card-body">
             <h5 class="card-title"><a class="text-dark" href="{{ blogpost.url | relative_url }}">{{ blogpost.title }}</a></h5>
-            <p class"card-text">
+            <p class="card-text">
                 {% for tag in blogpost.tags %}
                     <small class="badge badge-dark">{{ tag }}</small>
                 {% endfor %}
