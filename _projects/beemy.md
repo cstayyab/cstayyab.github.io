@@ -6,8 +6,8 @@ seo:
     type: MobileApplication
 icon: "/assets/images/beemy.png"
 image: "/assets/images/beemy_home.jpg"
-tech: CSS3, HTML5, JS, jQuery, Angular, Node.js, MongoDB
-skills: UI/UX Design, RESTful API Development
+tech: Flutter, Dart
+skills: UI/UX Design, Flutter App Development, Mobile App Development
 feature-link: https://github.com/cstayyab/beemy-flutter
 contributors:
     - cstayyab
