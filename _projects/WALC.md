@@ -24,7 +24,7 @@ sudo snap install walc
 ```
 
 ## Feature Requests
-[![Feature Requests](http://feathub.com/cstayyab/WALC?format=svg)](http://feathub.com/cstayyab/WALC)
+[![Feature Requests](https://feathub.com/cstayyab/WALC?format=svg)](https://feathub.com/cstayyab/WALC)
 
-Request new features or vote for existing feature requests at https://feathub.com/cstayyab/WALC/
+Request new features or vote for existing feature requests at [https://feathub.com/cstayyab/WALC/](https://feathub.com/cstayyab/WALC/)
 After you request a new feature please create an issue for that feature request too mentioned the feathub link of that feature. That issue will be used to track the implementation of that feature.
