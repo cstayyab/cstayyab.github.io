@@ -13,6 +13,6 @@ contributors:
     - cstayyab
 ---
 
-**Beemy**, A cute and little Body Mass Index calculator
+Beemy is a cute and little Body Mass Index calculator
 
 You can calculate your BMI if you know your weight (in kg or lb) and height (in cm, m or ft). It will also tell you if you are underweight, healthy, overweight or obese.
