@@ -14,6 +14,9 @@ contributors:
     - Zzombiee2361
 ---
 
+[![GitHub release (latest by date)](https://img.shields.io/github/v/release/cstayyab/WALC?color=%2325D366&label=Latest%20Release)](https://github.com/cstayyab/WALC/releases/latest) [![GitHub Releases (by Release)](https://img.shields.io/github/downloads/cstayyab/WALC/latest/total?color=%2325D366&label=Latest%20Version%20AppImage%20Downloads&logo=Linux&logoColor=%23FFFFFF)](https://github.com/cstayyab/WALC/releases/latest) [![walc](https://snapcraft.io//walc/badge.svg)](https://snapcraft.io/walc)
+[![walc](https://snapcraft.io//walc/trending.svg?name=0)](https://snapcraft.io/walc)
+
 [![Get it from the Snap Store](https://snapcraft.io/static/images/badges/en/snap-store-black.svg)](https://snapcraft.io/walc)
 
 To download an AppImage, please goto [Latest Release](https://github.com/cstayyab/WALC/releases/latest) Page
