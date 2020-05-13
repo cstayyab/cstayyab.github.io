@@ -9,6 +9,7 @@ image: "https://dashboard.snapcraft.io/site_media/appmedia/2020/03/WALC-Preview.
 tech: Node.js, ElectronJS
 skills: Electron App Development, Linux Development, Ubuntu Snap
 feature-link: https://snapcraft.io/walc
+ocs-site-verification: 05fc9abde44bec7686ceeda9abfa37a7
 contributors:
     - cstayyab
     - Zzombiee2361
